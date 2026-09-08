@@ -1,0 +1,27 @@
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;      
+    font-family: "Poppins", sans-serif;
+}
+main{
+    background: #d1cfcf;
+    width: 100%;
+    height: 100vh;
+}
+
+section{
+    width: 100%;
+    height: 35vh;
+    float: left;
+    padding: 1%;
+}
+
+#cs2{
+    background: #d97a15;
+}
+
+#valorant{
+    background: #f74352;
+}
