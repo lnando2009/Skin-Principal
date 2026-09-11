@@ -74,6 +74,7 @@ body {
   width: 100%;
   height: 180px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 10px;
@@ -82,6 +83,11 @@ body {
   background: linear-gradient(135deg, #ff4655, #1a1a2e);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
+
+h3{
+  color: #ffff;
+}
+
 
 
 .imagem-skin img {
@@ -109,7 +115,7 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
 }
 
-/* Cores das seções */
+
 .secao-1 .imagem-skin {
   background: linear-gradient(135deg, #ff4655, #1a1a2e);
 }
@@ -118,7 +124,7 @@ body {
   background: linear-gradient(135deg, #3d5485, #1a1a2e);
 }
 
-/* Ajuste para telas menores */
+
 @media (max-width: 800px) {
   #secao {
     max-width: 100%;
